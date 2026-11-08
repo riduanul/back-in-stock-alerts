@@ -1,0 +1,19 @@
+{
+  "name": "back-in-stock",
+  "version": "1.0.0",
+  "description": "Back-in-Stock Email Alerts Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test tests/integration.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
