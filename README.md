@@ -114,4 +114,4 @@ npm test
 - Tested the app end to end against the challenge harness through a Cloudflare tunnel: duplicate and concurrent webhooks, a phantom restock (webhook says in stock, stock API says sold out), an injected email 500 with retry, and a restart with a missed webhook.
 - Checked that no secrets are committed.
 
-**Time taken:** about X hours in total, including testing against the harness and the follow-up improvements. The first working version was ready after roughly Y minutes.
+**Time taken:** about X hours in total, including testing against the harness and the follow-up improvements. The first working version was ready after roughly 120 minutes.
